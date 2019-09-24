@@ -1,0 +1,144 @@
+body{
+    background-color: lightgrey;
+    background-position: center;
+    background-image: url(https://images.iphonephotographyschool.com/22693/1120b/How-To-Blur-Background-On-iPhone.jpg);
+    background-attachment;
+    background-size: cover;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-decoration: none;
+    color:black;
+
+    
+}
+a:hover {
+    background-color: none;
+    color: black;
+    font-size: 30px;
+    }
+
+a {
+        text-decoration: none;
+        color: black;
+        font-size:24px 
+    
+    }
+.LaCarte {
+    font-size: 50px;
+    color: ;
+    font-family: 'lucoda console', 'Courier New', Courier, monospace;
+    text-align: center;
+    font-style: italic;
+    font-style: bold;
+    text-shadow: 1px 2px 2px brown;
+
+}
+
+.Menu {
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.imageMenu {
+    display: block;
+    margin: 0.5cm;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+}
+
+.plat {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align:center;
+}
+.Copyright {
+    color: black;
+    font-size: 13px;
+    text-align: center;   
+}
+.type {
+    text-align:center;
+    font-size: 40px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Katrine';
+}
+
+img.deco {
+    display: block;
+    margin: 0.5cm;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.menu1 {
+    float:right;
+    font-size: 25px;
+    font-family: 'Shadow Brush', serif;
+    padding-right: 730px;
+
+}
+
+.NomsMenu {
+    padding-left: 300px;
+    font-size: 30px;
+    color: rgb(31, 31, 31);
+
+}
+
+.menu2 {
+    float:right;
+    font-size: 25px;
+    font-family: 'Shadow Brush';
+    padding-right: 600px;
+}
+
+.menu3 {
+    float:right;
+    font-size: 25px;
+    font-family: 'Shadow Brush', serif;
+    padding-right: 870px;
+}
+
+IMG.deco2 {
+    display: block;
+    margin: 0.5cm;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+IMG.headerimage {
+    display: block;
+    margin: 0.5cm;
+    margin-left: auto;
+    margin-right: auto;
+}
+

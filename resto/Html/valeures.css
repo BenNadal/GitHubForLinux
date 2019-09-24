@@ -1,0 +1,79 @@
+body{
+    background-color: lightgrey;
+    background-position: center;
+    background-image: url(https://hdqwalls.com/download/simple-background-blur-xb-1280x720.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+p.retour {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10cm;
+}
+a:hover {
+    background-color: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    }
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:24px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+p.title {
+    font-family: 'Lato Black';
+    font-size: 40px;
+    text-align: center;
+    color: beige;
+}
+
+p.val1 {
+    font-family: 'Lato Black';
+    text-align: center;
+    font-size: 30px;
+    background: rgba(78, 78, 78, 0.123);
+    color: white;
+}
+
+p.val2 {
+    font-family: 'Lato Black';
+    text-align: center;
+    font-size: 30px;
+    background: rgba(78, 78, 78, 0.123);
+    color: white;
+}
+
+IMG.img {
+    display: block;
+    margin: 0.5cm;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Copyright {
+    text-align: center;
+    color: white;
+    
+
+}

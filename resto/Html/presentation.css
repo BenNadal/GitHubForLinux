@@ -1,0 +1,100 @@
+body{
+    background-color: lightgrey;
+    background-position: center;
+    background-image: url(https://ak6.picdn.net/shutterstock/videos/17127316/thumb/1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+p.retour {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10cm;
+}
+a:hover {
+    background-color: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:24px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.titre {
+    color: white;
+    text-align: center;
+    font-family: 'Julietta Messie';
+    font-size: 70px;
+    text-shadow: 7px 7px 17px rgb(7, 7, 7)
+}
+
+.bref {
+    color: white;
+    text-align: center;
+    font-family: 'Julietta Messie';
+    font-size: 50px;
+    text-shadow: 7px 7px 17px rgb(7, 7, 7)
+}
+
+.spitch {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lato Black';
+    background-color: rgba(87, 85, 85, 0.26)
+}
+
+img.gif {
+    display: block;
+    margin: 0.5cm;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+p.part {
+    color: white;
+    font-size: 50px;
+    font-family: 'Lato Black';
+    text-align: center;
+
+
+}
+
+p.res {
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Lato Black';
+    text-align: center;
+
+}
+
+.fa-facebook:hover {
+    color: rgb(27, 27, 240);
+}
+
+.fa-twitter:hover {
+    color: aqua;
+}

@@ -1,0 +1,86 @@
+body{
+    background-color: lightgrey;
+    background-position: center;
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2019/06/13/moody-blur-wallpaper.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+IMG.patron {
+    height: 400px;
+    width: 300px;
+    padding-left: 100px;
+
+
+}
+
+p.retour {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10cm;
+}
+a:hover {
+    background-color: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    }
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:24px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+p.mot {
+    float: right;
+    font-family: 'Lato Black', serif;
+    font-size: 70px;
+    font-style: italic;
+    color: white;
+    padding-right: 700px;
+    white-space: pre, 10px;
+
+}
+
+h1.discourt {
+    color: white;
+    font-family: 'Julietta Messie';
+    float: right;
+    padding-right: 530px;
+    font-size: 60px;
+}
+
+p.texte {
+    color: white;
+    float: right;
+    font-size: 30px;
+    font-family: 'Julietta Messie';
+    padding-right: 100px;
+    width: 60%;
+
+
+}
+
+.Copyright {
+    color: rgb(253, 253, 253);
+    font-size: 13px;
+    text-align: center;   
+}

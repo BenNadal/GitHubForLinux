@@ -1,0 +1,90 @@
+body{
+    background-color: lightgrey;
+    background-position: center;
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2019/06/13/moody-blur-wallpaper.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+p.nouscontacter {
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+
+
+}
+
+.mail {
+    align-content: center;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 600px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+body {
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:#777;
+}
+
+h1.retour {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10cm;
+}
+a:hover {
+    background-color: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    }
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:24px;
+    text-align: center;
+    padding-left: 50px;
+ 
+}
+
+.commentaires {
+	font-size: 100px,!important;
+	font-family: 'Lato Black';
+
+
+}
+
+
