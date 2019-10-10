@@ -1,0 +1,151 @@
+body {
+    background-color: black;
+    background-image: url(https://www.thinkdigitally.com/wp-content/uploads/2015/12/Code-Blue.gif);
+    background-position: top;
+    background-repeat: space;
+    background-size: cover;
+}
+
+header {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Lato Black';
+    text-shadow: black 5px 5px 5px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.conteneur{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.name {
+    display: block;
+    text-align: center;
+    color: white;
+    font-family: 'Lato Black';
+    font-size: 20px;
+}
+
+p.perso {
+    color: white;
+    font-family: 'Lato Black';
+    font-size: 30px;
+    text-shadow: black 5pt 5pt 5pt;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+label {
+    color: white;
+    font-size: 23px;
+    font-family: 'Lato Black';
+    text-shadow: black 5px 5px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+
+}
+progress {
+    background-attachment: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    padding-right: auto;
+}
+
+.barre2 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    padding-left: 50px;
+    padding-right: auto;
+}
+progress.barre2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    padding-right: auto;
+}
+
+footer {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Lato Black';
+    text-shadow: black 5px 5px 5px;
+    text-decoration: none;
+    
+}
+
+}
+.conteneur{
+    width: 150px;
+    margin: 50px auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.d2{
+    width: 165%;
+    height: 200px;
+    background-size: contain;
+    animation: fondu 2s ease-in-out infinite both;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+
+}
+@keyframes fondu{
+    0%{background-image: url("file:///home/benoit/Bureau/FicheProfil/profile.png");}
+    33.33%{background-image: url("file:///home/benoit/Bureau/FicheProfil/profile2.png");}
+    66.67%{background-image: url("file:///home/benoit/Bureau/FicheProfil/profile3.png");}
+    100%{background-image: url("file:///home/benoit/Bureau/FicheProfil/profile.png");}
+}
+
+.blochtml {
+    display: block;
+    border: solid white 2px;
+    height: 400px;
+    width: 600px;
+    background-image: url(https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif);
+    backdrop-filter: blur(7px);
+}
+.bloc1 {
+    display: block;
+    border: solid white 2px;
+    height: 400px;
+    width: 600px;
+    backdrop-filter: blur(7px);
+    
+}
+
+.deco1 {
+    display: block;
+    width: 600px;
+    height: auto;
+    float: right;
+    padding-right: 100px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Lato Black';
+    font-size: 40px;
+    padding-left: 20px;
+}
+.bloc2 {
+    display: inline-block;
+    border: solid white 2px;
+    height: 400px;
+    width: 600px;
+    backdrop-filter: blur(7px);
+    margin-left: 700px;
+}
