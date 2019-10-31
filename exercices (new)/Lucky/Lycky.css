@@ -1,0 +1,180 @@
+body {
+    background-image: url(background.png);
+    background-color: black;
+    background-repeat: space;
+    background-size: cover;
+    width: 1980;
+    height: auto;
+    display: block;
+}
+
+.HUD {
+    width: 300px;
+    height: auto;
+}
+
+.eggman {
+    position: absolute;
+    top: 10%;
+    animation: eggman 4s;
+    animation-timing-function: linear;
+    visibility: hidden;
+}
+
+.sonic {
+    position: absolute;
+    top: 51%;
+    width: 200px;
+    height: auto;
+    animation: sonic 3s;
+    animation-timing-function: linear;
+    visibility: hidden;
+}
+
+img.ring {
+    position: absolute;
+    width: 70px;
+    height: auto;
+    top: 65%;
+    left: 500px;
+
+}
+img.ring2 {
+    position: absolute;
+    width: 70px;
+    height: auto;
+    top: 65%;
+    left: 550px;
+
+}
+img.ring3 {
+    position: absolute;
+    width: 70px;
+    height: auto;
+    top: 65%;
+    left: 600px;
+
+}
+img.ring4 {
+    position: absolute;
+    width: 70px;
+    height: auto;
+    top: 65%;
+    left: 1200px;
+
+}
+img.ring5 {
+    position: absolute;
+    width: 70px;
+    height: auto;
+    top: 65%;
+    left: 1250px;
+
+}
+img.ring6 {
+    position: absolute;
+    width: 70px;
+    height: auto;
+    top: 65%;
+    left: 1300px;
+
+}
+
+.cage {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left: 70%;
+    top: 100%;
+    animation: cage 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 2.3s;
+
+}
+.cage2 {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left: 70%;
+    top: 40%;
+    animation: cage2 2000s;
+    animation-timing-function: linear;
+    animation-delay: 2.8s;
+    visibility: hidden;
+
+}
+.death {
+    position: absolute;
+    width: 8%;
+    height: auto;
+    left: 70%;
+    top: 57%;
+    animation: death 0.5s;
+    animation-timing-function: linear;
+    visibility: hidden;
+    animation-delay: 3.2s;
+
+}
+
+@keyframes eggman {
+    0% {
+        top: 10%;
+        left: -10%;
+        visibility: visible;
+    }
+    100% {
+        top: 10%;
+        left: 100%;
+    }
+}
+
+@keyframes sonic {
+    0% {
+        top: 51%;
+        left: -50%;
+        visibility: visible;
+    }
+    70% {
+        top: 51%
+    }
+    100% {
+        top: 51%;
+        left: 65%;
+    }
+}
+
+@keyframes cage {
+    0% {
+        top: -750px;
+    }
+    100% {
+        top: 40%;
+    }
+}
+
+@keyframes death {
+    0% {
+        top: 51%;
+        visibility: visible;
+    }
+    50% {
+        top: 40%
+    }
+    100% {
+        top: 100%;
+    }
+}
+
+@keyframes cage2 {
+    0% {
+        top: 40%;
+        visibility: visible;
+    }
+    50% {
+        top: 40%
+    }
+    100% {
+        top: 40%;
+    }
+}
+}
